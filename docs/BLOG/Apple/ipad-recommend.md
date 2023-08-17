@@ -1,86 +1,103 @@
 # iPad 购买建议
 
-> 本文链接: https://yang-xijie.github.io/BLOG/Apple/ipad-recommend/
+> 本文链接: https://imessagee.github.io/BLOG/Apple/IMESSGAEEEEE/
 >
-> 作者：Bilibili@杨希杰619
+> 作者：IMESSSSSS
 > 
 > 个人观点，仅供参考，转载请注明出处
 > 
 > 此推荐更新于 230726，可能具有时效性
 
-## 需求分析
+## 
 
-- 娱乐（打游戏、看剧、看书）
-    - 打游戏对性能还是有一定要求的，但我必须要说，所有机型的 iPad 性能都是够的。120 帧持续打游戏在 iPad 上不可能的，因为 iPad 不会主动散热。
-    - 看剧对于挺多人来说还是个挺重要的需求。iPad 屏幕素质和音响确实不错的，床上抱着大屏看剧确实不错。
-    - 看书也算是一部分人的需求。
-- Pencil（记笔记、标注、画画）
-    - iPad 非常有价值的一点在于 Apple Pencil。如果你是学生要做笔记打草稿，是研究生要看论文做标注，是画师要画画，iPad + Pencil 一定是最好的选择。
-        - iPad 可以很容易推动无纸化学习办公，我买了 iPad + Pencil 之后再也不用纸了。
-        - iPad 画画是所见即所得的，和纸上画画一摸一样，区别是有无限的 ctrl Z 撤回而不用拿着橡皮擦擦。
-    - 如果你是老师，为了讲课买一个 iPad 也是很不错的，线上教学时 iPad + Pencil 就可以充当黑板。
+# 推荐内容IMESSGAE相关
 
-除这两点以外，不要指望 iPad 发挥太大的作用。真的不推荐苹果的那个妙控键盘，说到底 iPad 不是桌面端的生产力，核心交互还是手势，键盘和触控板的适配都不太行的。想要真正的生产力，请一定考虑桌面端 Mac (macOS) 或者 PC (Windows)。之前一个老师说出差想只带一个 iPad 我就直接跟他说不行，因为 iPad 处理 Word 和 PPT 都费劲。
+作者✈️@IMEAE推荐内容     |[***iMessage苹果推软件***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+-------- | -----
+作者✈️@IMEAE推荐内容     |[***1.家庭推内容***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***2.相册推***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***3.日历推***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***4.虚拟机安装简单***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***5.iMessage***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+如果注册远程通知失败，系统将调用 didFailToRegisterForRemoteNotificationsWithError 方法，您可以在该方法中处理错误情况。
+设置 Apple Developer 帐户： 确保您拥有一个有效的 Apple Developer 帐户，以便能够访问开发者工具和资源。
 
-> - **如果自己没有买 iPad 的需求就不买。**
+创建 App ID 和推送证书： 在 Apple Developer 帐户中创建一个 App ID，并为该 App ID 生成推送证书。这个证书将用于与 APNs 进行安全通信。
 
-## 目前在售的 iPad 机型
+获取设备令牌： 在您的 iOS 应用程序中，实现远程通知注册流程以获取设备令牌。这是向特定设备发送推送消息的标识。详细步骤可以参考之前我提供的关于获取设备令牌的信息。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/8dc1a5b5d9a04cb19cbec011992ba310.png)
 
-> - **在[苹果官网](https://www.apple.com.cn)买目前在售的机型。不太推荐买二手，除非是身边的人用过的设备。**
+配置 APNs 通知： 使用获取的设备令牌和推送证书，将推送消息发送到 APNs。您需要在服务器端实现与 APNs 的通信。以下是一个基本的使用 Swift 和 Vapor 框架的示例：
 
-在 230726 这一天，[在售的机型有如下六款](https://www.apple.com.cn/ipad/compare/)：
+swift
+Copy code
+import Vapor
+import APNS
 
-- iPad（第九代）
-- iPad（第十代）
-- iPad mini（第六代）
-- iPad Air（第五代）
-- 11 英寸 iPad Pro（第四代）
-- 12.9 英寸 iPad Pro（第六代）
+let apnsConfig = try APNSConfig(
+    keyIdentifier: "YOUR_KEY_IDENTIFIER",
+    teamIdentifier: "YOUR_TEAM_IDENTIFIER",
+    signingMode: .file(path: "/path/to/AuthKey_YOUR_AUTH_KEY.p8")
+)
 
-### 几款可选的在售 iPad 机型
+let apns = try APNSConnection.connect(configuration: apnsConfig)
 
-> - **一代笔使用起来非常不方便，千万别考虑。**
-> - **64 GB 存储不够用，256 GB 存储过多，一般 128 GB 存储是最好的选择。**
-> - **一般 iPad 通过 Wi-Fi 联网，4G 与 5G 联网不是核心需求。**
-> - **老师和学生注意使用全年都有的教育优惠，在暑期有活动会送耳机或笔可以关注一下。** or 后面的是教育优惠价格。
+let payload = APNSwiftPayload(alert: "Hello, World!")
 
-- iPad（第九代）256 GB  *3800 or 3640*
-- iPad（第十代）256 GB  *4800 or 4600*
-- iPad mini（第六代）256 GB  *5200 or 4800*（+ Penicl *1000 or 920*）
-- iPad Air（第五代）256 GB  *6000 or 5600*（+ Penicl *1000 or 920*）【暑期活动送笔】
-- 11 英寸 iPad Pro（第四代）128 GB  *6800 or 6400*（+ Penicl *1000 or 920*）【暑期活动送笔】
-- 12.9 英寸 iPad Pro（第四代）128 GB  *9300 or 8500*（+ Penicl *1000 or 920*）【暑期活动送笔】
+let deviceToken = "DEVICE_TOKEN"
 
-## 我的建议
+let pushMessage = try APNSwiftNotification(deviceToken: deviceToken, payload: payload)
 
-一款一款来说（下面与价格相关都用教育优惠价格）：
 
-- iPad
-    - 这是入门款 iPad，第九代 256 GB 也要 3640 的价格。我个人觉得真的不值。支持一代笔说实话体验很差，不用笔的话，看剧有 PC，看书有手机；如果你专门用来打游戏的话，说实话这个价格还好，毕竟 App Store 里面那么多游戏可以供你玩。
-    - 第十代相比第九代价格上涨 26%，提升有：全面屏、USB-C 接口、横向立体声扬声器。说实话，没有那么大的提升。多花将近一千没必要。
-- iPad mini
-    - mini 我个人认为是非常有竞争力的机型。看书看剧打游戏拿在手里非常方便。其他五款 iPad 的重量都在 461 克以上，但 mini 却只有 293 克，这就是 mini 的优势。
-    - 如果你想记笔记或者画画，可以去苹果店体验一下小屏加笔哈，我自己是不知道体验怎么样。
-- iPad Air
-    - iPad Air 主要是价格上没有竞争力。与其选择 256 GB 的 Air（5600），不如选择 128 GB 的 Pro（6400）。256 GB 完全是多出来的（我就很后悔当时买了 256 GB 的 Pro），128 GB 是完全够用的；Pro 相比 Air 有 ProMotion 高刷（120 Hz 体验确实很不错）、有面容识别（也就是原深感摄像头系统、仅仅是解锁的话和指纹识别区别不大）、有雷达相机（一般人没这个需求）、支持雷雳 4 协议（一般人用不到）、四扬声器系统（音质稍微好一些）、Apple Pencil 悬停功能（对画师来说可能有一些用）。这个就智者见智了，我是觉得 800 买个高刷以及好多硬件（雷雳 4 接口、前后置摄像头）还算划算。
-- 12.9 英寸 iPad Pro
-    - 我个人不推荐这一款 iPad Pro。为什么呢？第一点是太大太重了。iPad 是需要拿在手上或者出门携带的，11 英寸 iPad Pro 466 克，12.9 英寸 iPad Pro 682 克，重了 46%。第二点是太贵了。贵的主要原因不是因为屏大，而是因为屏幕的材质是 mini-LED，除非你有看真正的 HDR 电视剧或者电影的刚需，否则这个屏幕买来就是浪费，毕竟相比 11 英寸 iPad Pro 贵了 30%。
-    - 但是对于画师来说，我想这一款是绝配了，大屏画画那肯定爽。
-- 11 英寸 iPad Pro
-    - 很推荐，我认知中的 iPad 基本上就是这一款 iPad。有高刷、有 FaceID、有四扬声器，使用体验好。加一个 Pencil 做笔记做标注也是很趁手，屏幕大小刚好。
 
-### 娱乐
+部署和设定二进制协议需要进行一系列步骤，涵盖了连接建立、数据编解码、通信处理等方面。以下是一般情况下您可以遵循的步骤，但请注意，具体步骤可能会因应用程序的需求、开发框架和技术栈而有所不同。
 
-- **iPad（第九代）256 GB**  *3800 or 3640*
-- **iPad mini（第六代）256 GB**  *5200 or 4800*
+准备开发环境： 确保您的开发环境中包含了必要的工具和库，以支持建立基于 TLS 的 TCP 连接和进行数据编解码。您可能需要使用类似于 OpenSSL 的库来处理加密通信。
 
-### Pencil
+获取证书和密钥： 像您在使用 HTTPS 时一样，建立 TLS 连接需要使用证书和密钥。您需要生成或获取适用于您应用程序的证书和密钥。
 
-- **iPad mini（第六代）256 GB**  *5200 or 4800* + Penicl *1000 or 920*
-- **11 英寸 iPad Pro（第四代）128 GB**  *6800 or 6400* + Penicl *1000 or 920*【暑期活动送笔】
+建立连接： 通过使用所选择的开发语言和库，建立基于 TLS 的 TCP 连接。这涉及到指定服务器地址、端口和证书等信息。
 
----
+编码数据： 您需要将推送请求编码为二进制格式，以符合协议的规范。这可能涉及将各种字段和数据转换为字节序列，确保编码后的数据符合协议的预期格式。
 
-> - **iPad 非常贵。如果预算没有这么多，请考虑安卓平板，我相信性价比是超越 iPad 的，请参考其他 up 主的安卓平板测评和推荐。**
-> - **Apple Care 没有必要购买，在使用时轻拿轻放小心一些即可。**
-> - **如果你已经下单了，就等收到之后好好享受吧。苹果的产品质量还是没得说的，一个 iPad 可以用好多年的，希望 iPad 能给你的学习生活带来便利与快乐。**
+发送请求： 通过已建立的连接，将编码后的推送请求发送到目标服务器。这可能涉及到将编码后的字节序列发送到连接的输出流。
+
+接收响应： 等待目标服务器的响应，并从连接的输入流中读取数据。这些数据将是服务器的响应，可能是成功或失败的信息。
+
+解码响应： 将从服务器接收到的字节序列解码为可读的数据，以便理解服务器的响应。这可能涉及将字节序列转换回字段和数据。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f5fe546f29c446eb9c6b5ef26de29506.png)
+
+处理响应： 根据解码后的数据，处理服务器的响应。如果成功，您可以继续下一步操作；如果失败，您可能需要采取适当的纠正措施。
+
+关闭连接： 通信完成后，关闭连接以释放资源。确保在不需要连接时正确关闭它，以避免资源泄漏。
+
+测试和调试： 在实际部署之前，对您的二进制协议通信进行充分的测试和调试。这将有助于发现并解决可能的问题和错误。
+
+需要强调的是，二进制协议的实现涉及到一些细节，包括编解码规则、字节顺序等。您可能需要参考相关的协议规范和文档，确保您的实现与预期的协议一致。
+
+最重要的是，确保您的通信过程安全可靠。使用 TLS 进行加密通信是一个很好的做法，确保数据在传输过程中不会被窃取或篡改。
+
+
+apns.send(pushMessage) { result in
+    switch result {
+    case .success:
+        print("Push notification sent successfully")
+    case .failure(let error):
+        print("Error sending push notification: \(error)")
+    }
+}
+作者✈️@IMEAE推荐内容     |[***iMessage苹果推软件***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***1.家庭推内容***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***2.相册推***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+
+处理推送响应： 一旦推送消息被 APNs 接受，您将从 APNs 收到推送响应。根据响应中的信息，您可以判断推送是否成功。如之前所述，请参考苹果的官方文档了解更多关于处理推送响应的信息。
+发送设备令牌给服务器：在 didRegisterForRemoteNotificationsWithDeviceToken 方法中，您需要编写代码将设备令牌发送给您的服务器。您可以使用网络请求或者其他适合您的通信方式将设备令牌发送给服务器端。
+作者✈️@IMEAE推荐内容     |[***3.日历推***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***4.虚拟机安装简单***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***5.iMessage***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+在服务器端，您可以保存设备令牌，并将其用于向特定设备发送推送通知。
+
+请注意，设备令牌是与特定应用程序和设备相关联的，并且可能会在应用程序卸载或设备重置时发生变化。因此，您需要定期更新服务器上的设备令牌，以确保推送通知可以正确地发送到目标设备。
+
+以上是在 iOS 应用程序中获取设备令牌的基本步骤。具体的实现可能会根据您使用的编程语言和开发框架而有所差异。您可以参考苹果的官方文档和开发者资源，了解更多关于远程通知注册和设备令牌获取的详细信息。
+
