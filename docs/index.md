@@ -1,6 +1,6 @@
-# 你好
+# 你好 iMessage
 
-这里是✈️@IMEAX https://t.me/IMEAX
+这里是 【✈️@IMEAX】 https://t.me/IMEAX
 
 - 通过主题和目录以打开文章
     - PC端 在上方标签栏选择主题 在左侧目录选择文章
