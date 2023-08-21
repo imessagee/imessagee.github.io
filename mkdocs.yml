@@ -8,11 +8,13 @@ site_description: ✈️@IMEAX
 nav:
   - 博客:
     - BLOG/index.md
-    - BLOG/others.md
+    - BLOG/others/others.md
     - iMessage群发软件:
       - BLOG/iMessage1/2301.md
       - BLOG/iMessage1/2302.md
       - BLOG/iMessage1/2303.md
+    - 其他:
+      - BLOG/others/o2301.md  
   - IM群控:
     - IMQK/index.md
     - IM真机群控设备:
