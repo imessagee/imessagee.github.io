@@ -1,5 +1,5 @@
 # [Info]
-site_name: IMESSAGE # 左上角标题
+site_name: 【iMessage群发设备】  ✈️@IMEAX # 左上角标题
 site_url: https://t.me/IMEAX
 site_author: ✈️@IMEAX
 site_description: ✈️@IMEAX
@@ -9,14 +9,82 @@ nav:
   - 博客:
     - BLOG/index.md
     - BLOG/others.md
+    - iMessage群发软件:
+      - BLOG/iMessage1/2301.md
+      - BLOG/iMessage1/2302.md
+      - BLOG/iMessage1/2303.md
+  - IM群控:
+    - IMQK/index.md
+    - IM真机群控设备:
+      - IMQK/IMQK1/IM2301.md
+  - 苹果推:
+    - iMessage push/index.md
+    - 【iMessage苹果推】:
+      - iMessage push/PGT1/PGT12301.md
+      - iMessage push/PGT1/PGT12302.md
+    - 【iMessage苹果群发软件】:
+      - iMessage push/PGT2/PGT22301.md
+      - iMessage push/PGT2/PGT22302.md
+    - 【iMessage苹果群发设备】:
+      - iMessage push/PGT3/PGT32301.md
+    - 【iMessage苹果家庭推】:
+      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT3/PGT32301.md
+    - 【iMessage苹果日历推送】:
+      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT3/PGT32301.md
+    - 【iMessage苹果位置推送】:
+      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT3/PGT32301.md
+    - 【iMessage苹果真机群控推送】:
+      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT3/PGT32301.md
+  - 转载:
+    - REPRODUCE/index.md
+    - REPRODUCE/Z2301.md
+    - REPRODUCE/Z2302.md
+    - REPRODUCE/Z2303.md
+    - REPRODUCE/Z2304.md
+    - REPRODUCE/Z2305.md
+    - REPRODUCE/Z2306.md
   - 随笔:
     - ESSAY/index.md
     - 随笔记:
       - ESSAY/Jottings/2307.md
       - ESSAY/Jottings/2306.md
-  - IMEAX:
+      - ESSAY/Jottings/2305.md
+      - ESSAY/Jottings/2304.md
+      - ESSAY/Jottings/2303.md
+      - ESSAY/Jottings/2302.md
+      - ESSAY/Jottings/2301.md
+      - ESSAY/Jottings/2211-2212.md
+      - ESSAY/Jottings/2209-2210.md
+      - ESSAY/Jottings/2207-2208.md
+      - ESSAY/Jottings/2205-2206.md
+      - ESSAY/Jottings/2203-2204.md
+      - ESSAY/Jottings/2201-2202.md
+      - ESSAY/Jottings/2111-2112.md
+      - ESSAY/Jottings/2109-2110.md
+      - ESSAY/Jottings/2107-2108.md
+      - ESSAY/Jottings/2105-2106.md
+      - ESSAY/Jottings/2103-2104.md
+      - ESSAY/Jottings/2101-2102.md
+      - ESSAY/Jottings/2011-2012.md
+      - ESSAY/Jottings/2009-2010.md
+      - ESSAY/Jottings/2007-2008.md
+      - ESSAY/Jottings/2005-2006.md
+      - ESSAY/Jottings/2003-2004.md
+      - ESSAY/Jottings/2001-2002.md
+      - ESSAY/Jottings/0.md
+      - ESSAY/Jottings/1906-1912.md
+      - ESSAY/Jottings/1807-1812.md
+      - ESSAY/Jottings/1801-1806.md
+      - ESSAY/Jottings/17.md
+      - ESSAY/Jottings/16.md
+    - 文章:
+      - ESSAY/Articles/【什么是im推imessage群控推】.md
+  - 关于iMess:
     - ME/index.md
-    - ME/cv-full.md
 
 # [UI]
 ## [top]
@@ -46,21 +114,21 @@ theme:
     - content.action.edit # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
   language: zh # 一些提示性的文字会变成中文
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/telegram
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/imessagee/imessagee.github.io# 右上角点击跳转的链接
-repo_name: IMESASSSSS # 右上角的名字
+repo_url: https://imessagee.github.io # 右上角点击跳转的链接
+repo_name: https://t.me/IMEAX # 右上角的名字
 ## [bottom-left corner]
-copyright: IMESASSSSS CC-BY-4.0 # 左下角的版权声明
+copyright: iMessage CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
-    - icon: fontawesome-brands-telegram
+    - icon: fontawesome/brands/telegram
       link: https://t.me/IMEAX
       name: Telegram | ✈️@IMEAX # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link:  https://imessagee.github.io
+      link: https://t.me/IMEAX
       name: GitHub | ✈️@IMEAX 
 
 # [Extensions]

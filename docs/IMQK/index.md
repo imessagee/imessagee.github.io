@@ -1,4 +1,4 @@
-# 随笔
+# IM群控
 
 【点击左侧目录打开文章】 有意向直接联系 ✈️@IMEAX
 <a href="https://t.me/IMEAX" title="✈️@IMEAX" class="md-source" data-md-component="source">
