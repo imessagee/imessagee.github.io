@@ -13,12 +13,29 @@ nav:
       - BLOG/iMessage1/2301.md
       - BLOG/iMessage1/2302.md
       - BLOG/iMessage1/2303.md
+      - BLOG/iMessage1/2304.md
+      - BLOG/iMessage1/2305.md
+      - BLOG/iMessage1/2306.md
+      - BLOG/iMessage1/2307.md
+      - BLOG/iMessage1/2308.md
+      - BLOG/iMessage1/2309.md
+      - BLOG/iMessage1/23010.md
     - 其他:
       - BLOG/others/o2301.md  
   - IM群控:
     - IMQK/index.md
     - IM真机群控设备:
       - IMQK/IMQK1/IM2301.md
+      - IMQK/IMQK1/IM2302.md
+      - IMQK/IMQK1/IM2303.md
+      - IMQK/IMQK1/IM2304.md
+      - IMQK/IMQK1/IM2305.md
+      - IMQK/IMQK1/IM2306.md
+      - IMQK/IMQK1/IM2307.md
+      - IMQK/IMQK1/IM2308.md
+      - IMQK/IMQK1/IM2309.md
+      - IMQK/IMQK1/IM2310.md
+      - IMQK/IMQK1/IM2311.md
   - 苹果推:
     - iMessage push/index.md
     - 【iMessage苹果推】:
@@ -30,17 +47,17 @@ nav:
     - 【iMessage苹果群发设备】:
       - iMessage push/PGT3/PGT32301.md
     - 【iMessage苹果家庭推】:
-      - iMessage push/PGT3/PGT32301.md
-      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT4/PGT42301.md
+      - iMessage push/PGT4/PGT42301.md
     - 【iMessage苹果日历推送】:
-      - iMessage push/PGT3/PGT32301.md
-      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT5/PGT52301.md
+      - iMessage push/PGT5/PGT52301.md
     - 【iMessage苹果位置推送】:
-      - iMessage push/PGT3/PGT32301.md
-      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT6/PGT62301.md
+      - iMessage push/PGT6/PGT62301.md
     - 【iMessage苹果真机群控推送】:
-      - iMessage push/PGT3/PGT32301.md
-      - iMessage push/PGT3/PGT32301.md
+      - iMessage push/PGT7/PGT72301.md
+      - iMessage push/PGT7/PGT72301.md
   - 转载:
     - REPRODUCE/index.md
     - REPRODUCE/Z2301.md
@@ -83,6 +100,7 @@ nav:
       - ESSAY/Jottings/1801-1806.md
       - ESSAY/Jottings/17.md
       - ESSAY/Jottings/16.md
+      - ESSAY/Jottings/230822.md
     - 文章:
       - ESSAY/Articles/【什么是im推imessage群控推】.md
   - 关于iMess:
