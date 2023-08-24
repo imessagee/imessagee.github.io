@@ -1,6 +1,6 @@
 # [Info]
 site_name: 【iMessage群发设备】  ✈️@IMEAX # 左上角标题
-site_url: https://t.me/IMEAX
+site_url: https://imessagee.github.io/
 site_author: ✈️@IMEAX
 site_description: ✈️@IMEAX
 
@@ -138,17 +138,17 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/imessagee/imessagee.github.io # 右上角点击跳转的链接
-repo_name: https://t.me/IMEAX # 右上角的名字
+repo_name: https://imessagee.github.io/ # 右上角的名字
 ## [bottom-left corner]
 copyright: iMessage CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
     - icon: fontawesome/brands/telegram
-      link: https://t.me/IMEAX
+      link: https://imessagee.github.io/
       name: Telegram | ✈️@IMEAX # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://t.me/IMEAX
+      link: https://imessagee.github.io/
       name: GitHub | ✈️@IMEAX 
 
 # [Extensions]
