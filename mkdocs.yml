@@ -1,8 +1,8 @@
 # [Info]
-site_name: 【iMessage群发设备】  ✈️@IMEAX # 左上角标题
+site_name: 【iMessage群发设备】  ✈️@IMEAXXXX # 左上角标题
 site_url: https://imessagee.github.io/
-site_author: ✈️@IMEAX
-site_description: ✈️@IMEAX
+site_author: ✈️@IMEAXXXX
+site_description: ✈️@IMEAXXXX
 
 # [Navigtion]
 nav:
@@ -160,11 +160,11 @@ copyright: iMessage CC-BY-4.0 # 左下角的版权声明
 extra:
   social: # icons
     - icon: fontawesome/brands/telegram
-      link: https://imessagee.github.io/pic/IMEAXXX.png
-      name: Telegram | ✈️@IMEAX # 鼠标悬浮提示
+      link: https://imessagee.github.io/pic/IMEAXXXX.png
+      name: Telegram | ✈️@IMEAXXXX # 鼠标悬浮提示
     - icon: fontawesome/brands/github
       link: https://imessagee.github.io/
-      name: GitHub | ✈️@IMEAX 
+      name: GitHub | ✈️@IMEAXXXX 
 
 # [Extensions]
 plugins:
