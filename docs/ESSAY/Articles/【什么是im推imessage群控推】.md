@@ -51,13 +51,13 @@ ProtocolBuffer拥有多项比XML更高档的序列化结构数据的特性，Pro
 · 更简单
 # 推荐内容IMESSGAE相关
 
-作者✈️@IMEAE推荐内容     |[***iMessage苹果推软件***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAE推荐内容     |[***iMessage苹果推软件***](https://imessagee.github.io/) *** 点击即可查看作者要求内容信息
 -------- | -----
-作者✈️@IMEAE推荐内容     |[***1.家庭推内容***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
-作者✈️@IMEAE推荐内容     |[***2.相册推***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
-作者✈️@IMEAE推荐内容     |[***3.日历推***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
-作者✈️@IMEAE推荐内容     |[***4.虚拟机安装简单***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
-作者✈️@IMEAE推荐内容     |[***5.iMessage***](https://blog.csdn.net/IMEAE?type=blog) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAXXXX推荐内容     |[***1.家庭推内容***](https://imessagee.github.io/) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAXXXX推荐内容     |[***2.相册推***](https://imessagee.github.io/) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAXXXX推荐内容     |[***3.日历推***](https://imessagee.github.io/) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAXXXX推荐内容     |[***4.虚拟机安装简单***](https://imessagee.github.io/) *** 点击即可查看作者要求内容信息
+作者✈️@IMEAXXXX推荐内容     |[***5.iMessage***](https://imessagee.github.io/) *** 点击即可查看作者要求内容信息
 · 小3-10倍
 
 · 快20-100倍
